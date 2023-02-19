@@ -5,11 +5,16 @@
         <style> 
         .box{
             display:flex;
+            height:100vh;
+            align-items:flex-start;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content:space-evenly;
            
            
            
             /*align-items:center;
-            /*align-items:flex-start;*/
+            align-items:flex-start;
             /*align-items:flex-end;*/
             /*align-items:stretch;*/
             /*justify-content:flex-start;*/
@@ -21,42 +26,67 @@
             /*flex-direction: row;*/
             /*flex-direction:  row-reverse;*/
             /*flex-direction: column;*/
-            flex-direction: column-reverse;
+            /*align-self: flex-start;
+            align-self: flex-end;
+            align-self:centre;*/
+            /*flex-direction: column-reverse;
+            flex-wrap: wrap
+            flex-wrap: nowrap
+            flex-wrap: wrap-reverse
+                 align-content
+            align-content:flex-start;*/
+            /*align-content:flex-end;*/
+            /*align-content:center;
+            /*align-content: space-around;*/
+            /*align-content: space-between;*/
+            /*align-content: space-evenly;*/
+        
         }
-        #ab1,#ab2,#ab3{
+        .ab1,.ab2,.ab3{
             
             background-color: blue;
             padding:10px;
             border:3px solid red;
-            width:20%
-           
-           
-           
+            width: 400px;;
             
             
-            
-        }
+           }
+           /*.ab1{
+            align-self: flex-end;
+           }
+           .ab2{
+            align-self: center;
+           }
+           
         /*align items* top-bottom
         justufy-content=right 2 left
         flex-direction: row,row reverse,column,column reverse*/
-
-
-
-
-        </style>
+    </style>
     </HEAD>
     <body>
         <div class="box">
-            <div id="ab1">
+            <div class="ab1">
                 <h1> HTML1</h1>
                 <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
             </div>
-            <div id="ab2">
+            <div class="ab2">
                 <h1> HTML2</h1>
                 <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
             </div>
-            <div id="ab3">
+            <div class="ab3">
                 <h1> HTML3</h1>
+                <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
+            </div>
+            <div class="ab1">
+                <h1> HTML4</h1>
+                <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
+            </div>
+            <div class="ab2">
+                <h1> HTML5</h1>
+                <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
+            </div>
+            <div class="ab3">
+                <h1> HTML6</h1>
                 <P>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</P>
             </div>
         </div>
